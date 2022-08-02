@@ -10,7 +10,7 @@ public class TestCreditCard extends Base{
 	@Test
 	
 	public void openCreditCardAccount() {
-	openAccountPage.OpenAccountSteps();
+	openAccountPage.OpenAccountSteps("Compare Truist Visa® credit cards", "https://www.truist.com/credit-cards/enjoy-cash");
 	
 	}
 	

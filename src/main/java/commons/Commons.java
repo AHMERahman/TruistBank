@@ -36,7 +36,7 @@ public class Commons {
 
 	}
 	
-//	Click using javascript executor
+//	Click using JavascriptExecutor
 	
 	public void clickJS(WebElement element) {
 		

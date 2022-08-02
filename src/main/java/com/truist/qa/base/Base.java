@@ -2,15 +2,16 @@ package com.truist.qa.base;
 
 import java.time.Duration;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import commons.CommonWaits;
 import commons.Commons;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import objects.OpenAccountPage;
@@ -20,7 +21,10 @@ public class Base {
 public Configuration configuration = new Configuration(null);
 	
 	WebDriver driver;
+	WebDriverWait wait;
+	
 	protected OpenAccountPage openAccountPage;
+	CommonWaits waits;
 	protected Commons commons;
 	
 
@@ -30,6 +34,7 @@ public Configuration configuration = new Configuration(null);
 		driver=localDriver("chrome");
 		driver.get(configuration.getConfiguration("url"));
 		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(configuration.getConfiguration("pageloadWait"))));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(configuration.getConfiguration("implicitWait"))));
 		initClasses();
@@ -57,14 +62,15 @@ public Configuration configuration = new Configuration(null);
 	}
 	
 	protected void initClasses() {
+		waits = new CommonWaits(wait);
 		commons = new Commons();
 		openAccountPage=new OpenAccountPage(driver, commons);
 		
 	}
 	
-	protected WebDriver getDriver() {
-		return driver;
-	}
+//	protected WebDriver getDriver() {
+//		return driver;
+//	}
 	
 	
 	@AfterMethod

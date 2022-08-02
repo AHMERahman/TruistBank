@@ -15,7 +15,7 @@ public class Configuration {
 		}else {
 			loadProperty(path);
 		}
-		
+	
 		
 	}
 
