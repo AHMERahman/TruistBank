@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0e51f00b07495889d37ab4710ff071b7)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0e51f00b07495889d37ab4710ff071b7)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13053" started-at="2022-07-27T16:48:10Z" finished-at="2022-07-27T16:48:23Z">
+  <suite name="RegressionSuite" duration-ms="78098" started-at="2022-08-02T04:52:12Z" finished-at="2022-08-02T04:53:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13053" started-at="2022-07-27T16:48:10Z" finished-at="2022-07-27T16:48:23Z">
+    <test name="Test" duration-ms="78098" started-at="2022-08-02T04:52:12Z" finished-at="2022-08-02T04:53:30Z">
       <class name="com.truist.qa.openAccount.TestCreditCard">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="setUp" is-config="true" duration-ms="11900" started-at="2022-07-27T16:48:10Z" finished-at="2022-07-27T16:48:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="setUp" is-config="true" duration-ms="29573" started-at="2022-08-02T04:52:12Z" finished-at="2022-08-02T04:52:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openCreditCardAccoutn()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="openCreditCardAccoutn" duration-ms="9" started-at="2022-07-27T16:48:22Z" finished-at="2022-07-27T16:48:22Z">
+        <test-method status="PASS" signature="openCreditCardAccount()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="openCreditCardAccount" duration-ms="47607" started-at="2022-08-02T04:52:41Z" finished-at="2022-08-02T04:53:29Z">
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0e51f00b07495889d37ab4710ff071b7)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0e51f00b07495889d37ab4710ff071b7)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- openCreditCardAccoutn -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="terminate" is-config="true" duration-ms="1116" started-at="2022-07-27T16:48:22Z" finished-at="2022-07-27T16:48:23Z">
+        </test-method> <!-- openCreditCardAccount -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="terminate" is-config="true" duration-ms="896" started-at="2022-08-02T04:53:29Z" finished-at="2022-08-02T04:53:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- com.truist.qa.openAccount.TestCreditCard -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
 </testng-results>

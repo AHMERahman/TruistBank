@@ -5,12 +5,13 @@ import org.testng.annotations.Test;
 
 import com.truist.qa.base.Base;
 
-public class TestCreditCard extends Base{
+public class TestCreditCard extends Base{ 
 	
 	@Test
 	
-	public void openCreditCardAccoutn() {
-		
+	public void openCreditCardAccount() {
+	openAccountPage.OpenAccountSteps();
+	
 	}
 	
 
