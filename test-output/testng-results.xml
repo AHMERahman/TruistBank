@@ -2,50 +2,74 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
     </line>
     <line>
       <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //h2[contains(text(),'Compare')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //h2[contains(text(),'Compare')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
     </line>
     <line>
       <![CDATA[current url is: https://www.truist.com/credit-cards/enjoy-cash<br>]]>
     </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //h2[contains(text(), 'OPTION 1')]]-------> :This element has text: OPTION 1<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[@data-wa-linkname='Apply now'])[1]' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: (//h2)[2]]-------> :This element has text: You're applying for the Truist Enjoy Cash Credit Card.<br>]]>
+    </line>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="84368" started-at="2022-08-02T18:24:47Z" finished-at="2022-08-02T18:26:11Z">
+  <suite name="RegressionSuite" duration-ms="83561" started-at="2022-08-07T23:01:59Z" finished-at="2022-08-07T23:03:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="84368" started-at="2022-08-02T18:24:47Z" finished-at="2022-08-02T18:26:11Z">
+    <test name="Test" duration-ms="83561" started-at="2022-08-07T23:01:59Z" finished-at="2022-08-07T23:03:23Z">
       <class name="com.truist.qa.openAccount.TestCreditCard">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="setUp" is-config="true" duration-ms="33444" started-at="2022-08-02T18:24:47Z" finished-at="2022-08-02T18:25:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="setUp" is-config="true" duration-ms="13491" started-at="2022-08-07T23:01:59Z" finished-at="2022-08-07T23:02:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openCreditCardAccount()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="openCreditCardAccount" duration-ms="49870" started-at="2022-08-02T18:25:20Z" finished-at="2022-08-02T18:26:10Z">
+        <test-method status="PASS" signature="openCreditCardAccount()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="openCreditCardAccount" duration-ms="69006" started-at="2022-08-07T23:02:13Z" finished-at="2022-08-07T23:03:22Z">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
             </line>
             <line>
               <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (c3518fce06b436b31e5c269271718e14)] -> xpath: //h2[contains(text(),'Compare')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //h2[contains(text(),'Compare')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
             </line>
             <line>
               <![CDATA[current url is: https://www.truist.com/credit-cards/enjoy-cash<br>]]>
             </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: //h2[contains(text(), 'OPTION 1')]]-------> :This element has text: OPTION 1<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[@data-wa-linkname='Apply now'])[1]' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (d40843242cc2931f8f06f8eff520fe2c)] -> xpath: (//h2)[2]]-------> :This element has text: You're applying for the Truist Enjoy Cash Credit Card.<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openCreditCardAccount -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="terminate" is-config="true" duration-ms="1010" started-at="2022-08-02T18:26:10Z" finished-at="2022-08-02T18:26:11Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestCreditCard@6e4784bc]" name="terminate" is-config="true" duration-ms="1041" started-at="2022-08-07T23:03:22Z" finished-at="2022-08-07T23:03:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->

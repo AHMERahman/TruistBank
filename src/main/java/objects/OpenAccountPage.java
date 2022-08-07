@@ -16,7 +16,7 @@ public class OpenAccountPage {
 
 	public OpenAccountPage(WebDriver driver, Commons commons) {
 		PageFactory.initElements(driver, this);
-		this.driver=driver;
+		this.driver = driver;
 		this.commons = commons;
 	}
 
@@ -25,12 +25,21 @@ public class OpenAccountPage {
 
 	@FindBy(xpath = "//a[@data-wa-linkurl='#credit-cards']")
 	WebElement creditCardElement;
-	
-	@FindBy(xpath="(//a[normalize-space(text())='View card details'])[1]")
+
+	@FindBy(xpath = "(//a[normalize-space(text())='View card details'])[1]")
 	WebElement cardDetailsElements;
-	
-	@FindBy(xpath="//h2[contains(text(),'Compare')]")
+
+	@FindBy(xpath = "//h2[contains(text(),'Compare')]")
 	WebElement titleElement;
+	
+	@FindBy(xpath="//h2[contains(text(), 'OPTION 1')]")
+	WebElement subHeadingElement;
+
+	@FindBy(xpath = "(//a[@data-wa-linkname='Apply now'])[1]")
+	WebElement applyNow;
+
+	@FindBy(xpath = "(//h2)[2]")
+	WebElement titleElement2;
 
 	private void clickOpenAccount() {
 		commons.click(openAccount);
@@ -38,28 +47,48 @@ public class OpenAccountPage {
 
 	private void clickCreditCard() {
 		commons.click(creditCardElement);
-		
+
 	}
 
 	private void clickCardDetails() {
 		commons.click(cardDetailsElements);
 	}
-	
+
 	private void getTitle(String expected) {
 		assertEquals(commons.getText(titleElement), expected);
 	}
-	
+
 	private void getCurrentUrl(String currentUrl) {
 		assertEquals(commons.getCurrentUrl(driver), currentUrl);
 	}
 
-	public void OpenAccountSteps(String expected, String currentUrl) {
+	private void scrollToElement() {
+		commons.scrollingJS(applyNow);
+	}
+	
+	private void getSubHeading(String expectedSubheading) {
+		assertEquals(commons.getText(subHeadingElement), expectedSubheading);
+	}
+
+	private void clickApply() {
+		commons.click(applyNow);
+	}
+
+	private void getTitle2(String expected2) {
+		assertEquals(commons.getText(titleElement2), expected2);
+	}
+
+	public void OpenAccountSteps(String expected, String currentUrl, String expectedSubheading, String currentUrl2, String expected2) {
 		clickOpenAccount();
 		clickCreditCard();
 		clickCardDetails();
 		getTitle(expected);
 		getCurrentUrl(currentUrl);
+//		scrollToElement();
+		getSubHeading(expectedSubheading);
+		clickApply();
+		getCurrentUrl(currentUrl2);
+		getTitle2(expected2);
 		
-
 	}
 }

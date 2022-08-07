@@ -1,6 +1,5 @@
 package commons;
 
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +9,8 @@ import reporting.Loggers;
 
 public class Commons {
 	WebDriver driver;
-	JavascriptExecutor js= (JavascriptExecutor) driver;
-	
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+
 	public void inputValue(WebElement element, String value) {
 		try {
 			element.sendKeys(value);
@@ -35,29 +34,38 @@ public class Commons {
 		}
 
 	}
+
+//	Scroll down using JavascriptExecutor
 	
-//	Click using JavascriptExecutor
-	
-	public void clickJS(WebElement element) {
-		
-		// Scrolling down the page till the element is found		
-        
-		js.executeScript("arguments[0].scrollIntoView();", element);
-		
-        try{
-			js.executeScript("argument[0].click()", element);
-			Loggers.obtainLog(element +" :This element has been clicked");
-		}catch(NullPointerException | NoSuchElementException e) {
+	public void scrollingJS(WebElement element) {
+		try {
+			js.executeScript("arguments[0].scrollIntoView();", element);
+			Loggers.obtainLog(element + " : scroll to this element");
+		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
-			Loggers.obtainLog(element+" :This element is not found");
+			Loggers.obtainLog(element + " : did not scroll to this element");
 			Assert.fail();
-			
 		}
-		
-		
+
 	}
 
-	public String getText(WebElement element) { 
+//	Click using JavascriptExecutor
+
+	public void clickJS(WebElement element) {
+
+		try {
+			js.executeScript("argument[0].click()", element);
+			Loggers.obtainLog(element + " :This element has been clicked");
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Loggers.obtainLog(element + " :This element is not found");
+			Assert.fail();
+
+		}
+
+	}
+
+	public String getText(WebElement element) {
 		String valueString = "null";
 		try {
 			valueString = element.getText();
