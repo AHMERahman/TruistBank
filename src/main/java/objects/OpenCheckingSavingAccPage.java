@@ -15,7 +15,7 @@ public class OpenCheckingSavingAccPage {
 		PageFactory.initElements(driver, this);
 		this.driver=driver;
 		this.commons=commons; 
-	}
+	} 
 	
 	@FindBy(xpath="//span[contains(text(),'Checking & savings')]")
 	WebElement checkingSavingElement;

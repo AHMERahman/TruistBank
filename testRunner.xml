@@ -4,9 +4,9 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value ="chrome"> </parameter>
     <classes>
-      <!--class name="com.truist.qa.openAccount.TestOpenAccount"/-->
+      <class name="com.truist.qa.openAccount.TestOpenAccount"/>
       <!-- class name="com.truist.qa.openAccount.TestOpenCheckingSaving"/-->
-      <class name="com.truist.qa.openAccount.TestOpenMortgage"/>
+      <!-- class name="com.truist.qa.openAccount.TestOpenMortgage"/-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

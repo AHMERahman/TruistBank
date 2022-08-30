@@ -9,15 +9,49 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">69,201</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">95,345</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.truist.qa.openAccount.TestOpenMortgage</td><td><a href="#m0">openMortgageAccount</a></td><td rowspan="1">1660448866279</td><td rowspan="1">60425</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.truist.qa.openAccount.TestOpenAccount</td><td><a href="#m0">openCreditCardAccount</a></td><td rowspan="1">1661822823341</td><td rowspan="1">85371</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.truist.qa.openAccount.TestOpenMortgage#openMortgageAccount</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[[ChromeDriver: chrome on WINDOWS (aaad8bdfd282df79dc064903aa835ab7)] -> xpath: (//span[contains(text(),'Mortgage')])[1]] :This element has been clicked<br><br/>[[ChromeDriver: chrome on WINDOWS (aaad8bdfd282df79dc064903aa835ab7)] -> xpath: //span[@class='truist-globalnav-header-linktext' and contains(text(), 'Mortgage')]] :This element has been clicked<br><br/>Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='author-cta-styling global-cta-btn']//child::a[@href='/mortgage/buy-home']' :This element is not found<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
-	at commons.Commons.javaScriptClick(Commons.java:106)
-	at objects.OpenMortgagePage.clickBuyHome(OpenMortgagePage.java:51)
-	at objects.OpenMortgagePage.openMortgageSteps(OpenMortgagePage.java:72)
-	at com.truist.qa.openAccount.TestOpenMortgage.openMortgageAccount(TestOpenMortgage.java:11)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.truist.qa.openAccount.TestOpenAccount#openCreditCardAccount</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br><br/>[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br><br/>waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br><br/>[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br><br/>waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: (//a[normalize-space(text())='View card details'])[1]]<br><br/>Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br><br/>[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;cta-663716574&quot;]/a&apos; (tried for 35 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at commons.CommonWaits.waitUntilClickable(CommonWaits.java:21)
+	at commons.Commons.click(Commons.java:53)
+	at objects.OpenAccountPage.clickApplyNow(OpenAccountPage.java:58)
+	at objects.OpenAccountPage.openAccountSteps(OpenAccountPage.java:75)
+	at com.truist.qa.openAccount.TestOpenAccount.openCreditCardAccount(TestOpenAccount.java:12)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;cta-663716574&quot;]/a&quot;}
+  (Session info: chrome=104.0.5112.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-R4SI2TC&apos;, ip: &apos;10.0.0.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [60ebfccced8781dfd6299f8ab550d2a9, findElement {using=xpath, value=//*[@id=&quot;cta-663716574&quot;]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kamru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64973/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 60ebfccced8781dfd6299f8ab550d2a9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 30 more
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

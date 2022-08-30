@@ -7,16 +7,14 @@ import java.util.Properties;
 
 public class Configuration {
 	private static Properties properties;
-	private static String defaultpath="configuration/config.properties";
+	private static String defaultpath = "configuration/config.properties";
 
 	public Configuration(String path) {
-		if(path==null) {
+		if (path == null) {
 			loadProperty(defaultpath);
-		}else {
+		} else {
 			loadProperty(path);
 		}
-	
-		
 	}
 
 	private void loadProperty(String path) {
@@ -32,12 +30,12 @@ public class Configuration {
 	}
 
 	public String getConfiguration(String key) {
-		if(key !=null) {
+		if (key != null) {
 			return properties.getProperty(key);
-		}else {
-			return null; 
+		} else {
+			return null;
 		}
-		
-			}
-	
+
+	}
+
 }

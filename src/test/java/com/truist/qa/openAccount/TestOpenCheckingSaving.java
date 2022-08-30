@@ -7,7 +7,7 @@ import com.truist.qa.base.Base;
 public class TestOpenCheckingSaving extends Base {
 
 	@Test
-	
+	 
 	public void OpenCheckingSavingAccount() {
 		openCheckingSavingAccPage.openCheckingSavingSteps();
 	}

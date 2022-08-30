@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
+    <parameter name="zip" value="17057"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.truist.qa.openAccount.TestOpenMortgage">
+      <class name="com.truist.qa.openAccount.TestOpenAccount">
         <methods>
           <include name="setUp"/>
-          <include name="openMortgageAccount"/>
           <include name="terminate"/>
+          <include name="openCreditCardAccount"/>
         </methods>
-      </class> <!-- com.truist.qa.openAccount.TestOpenMortgage -->
+      </class> <!-- com.truist.qa.openAccount.TestOpenAccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

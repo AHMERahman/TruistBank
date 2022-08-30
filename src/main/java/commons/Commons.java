@@ -5,18 +5,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
 import reporting.Loggers;
 
 public class Commons {
 	WebDriver driver;
 	CommonWaits waits;
-	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public Commons(WebDriver driver, CommonWaits waits) {
 		this.driver = driver;
@@ -36,9 +35,10 @@ public class Commons {
 	}
 
 //	click using Action class
-	public void clickActionClass(WebElement element) {
+	public void clickUsingActionClass(WebElement element) {
 		Actions actions = new Actions(driver);
 		try {
+			waits.waitUntilClickable(element);
 			actions.sendKeys(element, Keys.RETURN).perform();
 			Loggers.obtainLog(element + ":This element has been clicked");
 		} catch (NullPointerException | NoSuchElementException e) {
@@ -50,6 +50,7 @@ public class Commons {
 
 	public void click(WebElement element) {
 		try {
+			waits.waitUntilClickable(element);
 			element.click();
 			Loggers.obtainLog(element + " :This element has been clicked");
 		} catch (NullPointerException | NoSuchElementException e) {
@@ -63,23 +64,37 @@ public class Commons {
 //	Scroll down using JavascriptExecutor
 
 	public void scrollingJS(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		try {
 			js.executeScript("arguments[0].scrollIntoView();", element);
-			Loggers.obtainLog(element + " : scroll to this element");
+			Loggers.obtainLog("scroll worked");
 		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
-			Loggers.obtainLog(element + " : did not scroll to this element");
+			Loggers.obtainLog("scroll did not work");
 			Assert.fail();
 		}
+	}
 
+//	Scroll down using Action class
+	public void scrollUsingAction() {
+		Actions action = new Actions(driver);
+		try {
+			action.sendKeys(Keys.PAGE_DOWN).build().perform();
+			Loggers.obtainLog("scroll worked");
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Loggers.obtainLog("scroll did not work");
+			Assert.fail();
+		}
 	}
 
 //	Click using JavascriptExecutor
 
 	public void clickJS(WebElement element) {
-
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		try {
-			js.executeScript("argument[0].click()", element);
+			waits.waitUntilClickable(element);
+			js.executeScript("argument[0].click();", element);
 			Loggers.obtainLog(element + " :This element has been clicked");
 		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
@@ -90,13 +105,14 @@ public class Commons {
 
 	}
 
-//	click using javascript esecutor (2nd method)
+//	click using javascriptexecutor (2nd method)
 
 	public void javaScriptClick(WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		try {
 			if (element.isEnabled() && element.isDisplayed()) {
 				js.executeScript("arguments[0].click();", element);
-				Loggers.obtainLog(element +"This element was clicked");
+				Loggers.obtainLog(element + "This element was clicked");
 			} else {
 				Loggers.obtainLog("Unable to click on element");
 			}

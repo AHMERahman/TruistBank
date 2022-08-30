@@ -16,8 +16,8 @@ public class AffordabilityCalculatorPage {
 		PageFactory.initElements(driver, this);
 		this.driver = driver;
 		this.commons = commons;
-	}
-	
+	} 
+	 
 	@FindBy(xpath="//select[contains(@id, 'AffordabilityCalculationOption')]")
 	WebElement selectIncomeElement;
 	

@@ -13,9 +13,9 @@ public class CommonWaits {
 	WebDriverWait wait;
 
 	public CommonWaits(WebDriverWait wait) {
-		this.wait = wait;
-	}
-
+		this.wait = wait; 
+	} 
+ 
 	public void waitUntilClickable(WebElement element) {
 		try {
 			wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -24,7 +24,7 @@ public class CommonWaits {
 			e.printStackTrace();
 			Loggers.obtainLog(element +" : This element not found");
 			Assert.fail();
-
+ 
 		}
 
 	}

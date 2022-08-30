@@ -18,21 +18,27 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import objects.AffordabilityCalculatorPage;
 import objects.OpenAccountPage;
 import objects.OpenCheckingSavingAccPage;
+import objects.OpenCreditCardPage;
 import objects.OpenMortgagePage;
+import objects.PersonalInfoPage;
+import objects.GoToPersonalInfoFormPage;
 import utils.Configuration;
 
-public class Base {
+public class Base { 
 public Configuration configuration = new Configuration(null);
 	
-	WebDriver driver;
-	WebDriverWait wait;
-		
+	public static WebDriver driver;
+	WebDriverWait wait;  
+		 
 	CommonWaits waits;
 	protected Commons commons;
 	protected OpenAccountPage openAccountPage;
 	protected OpenCheckingSavingAccPage openCheckingSavingAccPage;
 	protected OpenMortgagePage openMortgagePage;
 	protected AffordabilityCalculatorPage affordabilityCalculatorPage;
+	protected OpenCreditCardPage openCreditCardPage;
+	protected GoToPersonalInfoFormPage goToPersonalInfoFormPage;
+	protected PersonalInfoPage personalInfoPage;
 	
 	@Parameters("browser")
 	@BeforeMethod 
@@ -76,8 +82,10 @@ public Configuration configuration = new Configuration(null);
 		openCheckingSavingAccPage =new OpenCheckingSavingAccPage(driver, commons);
 		openMortgagePage =new OpenMortgagePage(driver, commons);
 		affordabilityCalculatorPage = new AffordabilityCalculatorPage(driver, commons);
-		
-		
+		openCreditCardPage =new OpenCreditCardPage(driver, commons);
+		goToPersonalInfoFormPage = new GoToPersonalInfoFormPage(driver, commons);
+		personalInfoPage = new PersonalInfoPage(driver, commons);
+				
 		
 	}
 	
@@ -88,7 +96,7 @@ public Configuration configuration = new Configuration(null);
 	
 	@AfterMethod
 	public void terminate() {
-//		driver.quit();
+		driver.quit();
 	}
 	
 	

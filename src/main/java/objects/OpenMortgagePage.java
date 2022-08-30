@@ -27,7 +27,7 @@ public class OpenMortgagePage {
 	@FindBy(xpath="//span[@class='truist-globalnav-header-linktext' and contains(text(), 'Mortgage')]")
 	WebElement mortgageElementAgain;
 	
-	@FindBy(xpath="//div[@class='author-cta-styling global-cta-btn']//child::a[@href='/mortgage/buy-home']")
+	@FindBy(xpath="(//a[contains(text(),'Buy a home')])[1]")
 //	@FindBy(xpath="(//a[@href='/mortgage/buy-home'])[2]")
 	WebElement BuyHomeElement;
 	
@@ -48,7 +48,7 @@ public class OpenMortgagePage {
 	}
 	
 	private void clickBuyHome() {
-		commons.javaScriptClick(BuyHomeElement);
+		commons.click(BuyHomeElement);;
 	}
 	
 //	private void buyHomeElementPresent() {
@@ -69,9 +69,9 @@ public class OpenMortgagePage {
 	public void openMortgageSteps() {
 		clickMortgage();
 		clickMortgageAgain();
-		clickBuyHome();
+		clickBuyHome(); 
 		
-//		buyHomeElementPresent();
+//	buyHomeElementPresent();
 		
 		
 //		clickAffordabilityCalculator();

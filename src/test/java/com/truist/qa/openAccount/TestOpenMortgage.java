@@ -11,7 +11,7 @@ public class TestOpenMortgage extends Base {
 		openMortgagePage.openMortgageSteps();
 //		affordabilityCalculatorPage.affordabilityCalculatorSteps();
 	}
-	 
+	
 	
 	
 
