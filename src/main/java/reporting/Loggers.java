@@ -3,6 +3,8 @@ package reporting;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.testng.Reporter;
+import com.aventstack.extentreports.Status;
+
 
 public class Loggers { 
 	
@@ -14,6 +16,9 @@ public class Loggers {
 		
 		//TestNG reporter log
 		Reporter.log(msgs+"<br>"); 
+		
+		//ExtentReport
+		ExtentTestManager.getTest().log(Status.INFO, msgs);
 		
 	}
 	

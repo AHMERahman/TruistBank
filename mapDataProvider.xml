@@ -3,9 +3,10 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<parameter name="browser" value="chrome"></parameter>
-		<parameter name="zip" value="17057">	</parameter>
 		<classes>
-			<class name="com.truist.qa.openAccount.TestOpenAccount"/>
+
+			<class name="com.truist.qa.openAccount.TestOpenAccountDataMap" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

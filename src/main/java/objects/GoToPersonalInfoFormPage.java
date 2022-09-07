@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import commons.Commons;
+import utils.PersonalInfoData;
 
 public class GoToPersonalInfoFormPage {
 
@@ -59,6 +60,14 @@ public class GoToPersonalInfoFormPage {
 		inputZipcode(value);
 		clickContinue();
 		getSubheading2(expected2);
+	}
+	
+	public void goToPersonalInfoFormPageSteps(PersonalInfoData personalInfoData) {
+		clickNo();
+		getSubheading(personalInfoData.getExpectedSubHeading());
+		inputZipcode(personalInfoData.getZipCode());
+		clickContinue();
+		getSubheading2(personalInfoData.getExpectedSubheading2());
 	}
 
 }

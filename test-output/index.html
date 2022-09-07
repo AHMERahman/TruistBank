@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\kamru\MyProject\com.truist.qa\parameterizedTests.xml</span>
+                    <span>C:\Users\kamru\MyProject\com.truist.qa\mapDataProvider.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.truist.qa.openAccount.TestOpenAccount" hash-for-method="openCreditCardAccount">openCreditCardAccount</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.truist.qa.openAccount.TestOpenAccountDataMap" hash-for-method="openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...)">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.truist.qa.openAccount.TestOpenAccountDataMap" hash-for-method="openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...)">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,66 +122,34 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.truist.qa.openAccount.TestOpenAccount</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.truist.qa.openAccount.TestOpenAccountDataMap</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="openCreditCardAccount">
-                  </a> <!-- openCreditCardAccount -->
-                  <span class="method-name">openCreditCardAccount</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //*[@id=&quot;cta-663716574&quot;]/a&apos; (tried for 35 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at commons.CommonWaits.waitUntilClickable(CommonWaits.java:21)
-	at commons.Commons.click(Commons.java:53)
-	at objects.OpenAccountPage.clickApplyNow(OpenAccountPage.java:58)
-	at objects.OpenAccountPage.openAccountSteps(OpenAccountPage.java:75)
-	at com.truist.qa.openAccount.TestOpenAccount.openCreditCardAccount(TestOpenAccount.java:12)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;cta-663716574&quot;]/a&quot;}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;DESKTOP-R4SI2TC&apos;, ip: &apos;10.0.0.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [60ebfccced8781dfd6299f8ab550d2a9, findElement {using=xpath, value=//*[@id=&quot;cta-663716574&quot;]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kamru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64973/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 60ebfccced8781dfd6299f8ab550d2a9
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 30 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
+                  <a name="openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...)">
+                  </a> <!-- openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...) -->
+                  <span class="method-name">openCreditCardAccountMapDataProviderWithEnam</span>
+                  <span class="parameters">({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://creditcard.digitalcommerce.truist.com/product/welcome, SSN=765559898, Sub-title=I'm not a client, Execution=Y, Sub-title2=Let's get started., DOB=10/08/1998, Zipcode=17054, LastName=Swifty})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...)">
+                  </a> <!-- openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...) -->
+                  <span class="method-name">openCreditCardAccountMapDataProviderWithEnam</span>
+                  <span class="parameters">({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://creditcard.digitalcommerce.truist.com/product/welcome, SSN=755559897, Sub-title=I'm not a client, Execution=Y, Sub-title2=Let's get started., DOB=10/10/1999, Zipcode=17058, LastName=Gomez})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\kamru\MyProject\com.truist.qa\parameterizedTests.xml</span>
+            <span class="header-content">C:\Users\kamru\MyProject\com.truist.qa\mapDataProvider.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,10 +157,9 @@ Session ID: 60ebfccced8781dfd6299f8ab550d2a9
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
-    &lt;parameter name=&quot;zip&quot; value=&quot;17057&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.truist.qa.openAccount.TestOpenAccount&quot;/&gt;
+      &lt;class name=&quot;com.truist.qa.openAccount.TestOpenAccountDataMap&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -227,16 +199,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'openCreditCardAccount')
-data.setCell(0, 2, 'com.truist.qa.openAccount.TestOpenAccount')
-data.setCell(0, 3, 85371);
+data.setCell(0, 1, 'openCreditCardAccountMapDataProviderWithEnam')
+data.setCell(0, 2, 'com.truist.qa.openAccount.TestOpenAccountDataMap')
+data.setCell(0, 3, 89720);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openCreditCardAccountMapDataProviderWithEnam')
+data.setCell(1, 2, 'com.truist.qa.openAccount.TestOpenAccountDataMap')
+data.setCell(1, 3, 89391);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -248,24 +224,97 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">openCreditCardAccount</span>
+              <span class="reporter-method-name">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br></span>
-                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br></span>
-                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: (//a[normalize-space(text())='View card details'])[1]]<br></span>
-                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br></span>
-                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='cta-1776368162']/a]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="cta-663716574"]/a]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br></span>
+                <span class="reporter-method-output">current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br></span>
+                <span class="reporter-method-output">17054 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-input-1"]]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h1]-------> :This element has text: Let's get started.<br></span>
+                <span class="reporter-method-output">Taylor been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-4']]<br></span>
+                <span class="reporter-method-output">Swifty been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-6']]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-1-option-id-2']]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-10-option-id-19']]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br></span>
+                <span class="reporter-method-output">10/08/1998 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-2']]<br></span>
+                <span class="reporter-method-output">765559898 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-22']]<br></span>
+                <span class="reporter-method-output">7179899899 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-3']]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='cta-1776368162']/a]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="cta-663716574"]/a]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br></span>
+                <span class="reporter-method-output">current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br></span>
+                <span class="reporter-method-output">17058 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-input-1"]]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h1]-------> :This element has text: Let's get started.<br></span>
+                <span class="reporter-method-output">Selinaz been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-4']]<br></span>
+                <span class="reporter-method-output">Gomez been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-6']]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-1-option-id-2']]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-10-option-id-19']]<br></span>
+                <span class="reporter-method-output">Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br></span>
+                <span class="reporter-method-output">10/10/1999 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-2']]<br></span>
+                <span class="reporter-method-output">755559897 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-22']]<br></span>
+                <span class="reporter-method-output">7579899899 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-3']]<br></span>
+                <span class="reporter-method-output">waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br></span>
+                <span class="reporter-method-output">[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.truist.qa.openAccount.TestOpenAccountDataMap</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">openCreditCardAccountMapDataProvider</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -274,21 +323,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.truist.qa.openAccount.TestOpenAccount</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.truist.qa.openAccount.TestOpenAccountDataMap</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initiatingReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest(public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWit...)</span>
+                <span class="method-start">1284 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">1304 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">openCreditCardAccount</span>
-                <span class="method-start">9085 ms</span>
+                <span class="method-name">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://...)</span>
+                <span class="method-start">12967 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">terminate</span>
-                <span class="method-start">94485 ms</span>
+                <span class="method-name">afterEachTest(public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWit...)</span>
+                <span class="method-start">102693 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">102693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEachTest(public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWit...)</span>
+                <span class="method-start">103783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">103786 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openCreditCardAccountMapDataProviderWithEnam({=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://c...)</span>
+                <span class="method-start">111239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTest(public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWit...)</span>
+                <span class="method-start">200631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">terminate</span>
+                <span class="method-start">200632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">201732 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,15 +1,22 @@
 package commons;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+
+import com.google.common.io.Files;
 
 import reporting.Loggers;
 
@@ -94,7 +101,7 @@ public class Commons {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		try {
 			waits.waitUntilClickable(element);
-			js.executeScript("argument[0].click();", element);
+			js.executeScript("arguments[0].click();", element);
 			Loggers.obtainLog(element + " :This element has been clicked");
 		} catch (NullPointerException | NoSuchElementException e) {
 			e.printStackTrace();
@@ -176,6 +183,23 @@ public class Commons {
 			Assert.fail();
 
 		}
+	}
+	
+	public String getScreenshot(String testName) {
+		Date date = new Date();
+		SimpleDateFormat format = new SimpleDateFormat("MMddyyyy_hh.mm.ss");
+		String extension = format.format(date);
+		File file = new File("screenShots/" + testName + "_" + extension + ".png");
+		TakesScreenshot ss = (TakesScreenshot)driver;
+		File outPutFile = ss.getScreenshotAs(OutputType.FILE);
+		try {
+			Files.copy(outPutFile, file.getAbsoluteFile());
+			Loggers.obtainLog("Test has been failed \nScreenshot taken here ---> " + file.getAbsolutePath());
+		} catch (Exception e) {
+			e.printStackTrace();
+			Loggers.obtainLog("Error while taking screenshot");
+		}
+		return file.getAbsolutePath();
 	}
 
 }

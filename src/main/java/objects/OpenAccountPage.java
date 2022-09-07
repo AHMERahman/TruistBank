@@ -26,7 +26,7 @@ public class OpenAccountPage {
 	@FindBy(xpath = "//a[@data-wa-linkurl='#credit-cards']")
 	WebElement creditCardElement;
 
-	@FindBy(xpath = "(//a[normalize-space(text())='View card details'])[1]")
+	@FindBy(xpath = "//*[@id=\'cta-1776368162\']/a")
 	WebElement cardDetailsElements;
 
 	@FindBy(xpath = "//h2[contains(text(),'Compare Truist Visa® credit cards')]")
@@ -47,7 +47,7 @@ public class OpenAccountPage {
 	}
 
 	private void clickCardDetails() {
-		commons.click(cardDetailsElements);
+		commons.clickJS(cardDetailsElements);;
 	}
 
 	private void getSubHeading1(String expected) {

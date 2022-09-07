@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import commons.Commons;
+import utils.PersonalInfoData;
 
 public class PersonalInfoPage {
 
@@ -98,6 +99,20 @@ public class PersonalInfoPage {
 		inputDOB(dob);
 		inputSSN(ssn);
 		inputMobile(mobileNum);
+		clickCheckBox();
+
+	}
+	
+	public void personalInfoPageSteps(PersonalInfoData personalInfoData) {
+		inputFirstName(personalInfoData.getFirstName());
+		inputLastName(personalInfoData.getLastName());
+		clickSelectCitizenship();
+		clickPermanentResident();
+		clickAdditionalCitizenship();
+		clickBangladesh();
+		inputDOB(personalInfoData.getDob());
+		inputSSN(personalInfoData.getSsn());
+		inputMobile(personalInfoData.getMobileNum());
 		clickCheckBox();
 
 	}

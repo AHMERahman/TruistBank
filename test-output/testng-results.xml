@@ -1,34 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: (//a[normalize-space(text())='View card details'])[1]]<br>]]>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='cta-1776368162']/a]<br>]]>
     </line>
     <line>
-      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="cta-663716574"]/a]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br>]]>
+    </line>
+    <line>
+      <![CDATA[17058 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-input-1"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h1]-------> :This element has text: Let's get started.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Selinaz been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-4']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Gomez been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-6']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-1-option-id-2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-10-option-id-19']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[10/10/1999 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[755559897 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-22']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[7579899899 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-3']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='cta-1776368162']/a]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="cta-663716574"]/a]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br>]]>
+    </line>
+    <line>
+      <![CDATA[17054 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-input-1"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h1]-------> :This element has text: Let's get started.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Taylor been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-4']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Swifty been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-6']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-1-option-id-2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-10-option-id-19']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[10/08/1998 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-2']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[765559898 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-22']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[7179899899 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-3']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br>]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="95345" started-at="2022-08-30T01:26:54Z" finished-at="2022-08-30T01:28:29Z">
+  <suite name="Suite" duration-ms="201346" started-at="2022-09-06T17:07:09Z" finished-at="2022-09-06T17:10:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="95345" started-at="2022-08-30T01:26:54Z" finished-at="2022-08-30T01:28:29Z">
-      <class name="com.truist.qa.openAccount.TestOpenAccount">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccount@19bb07ed]" name="setUp" is-config="true" duration-ms="9085" started-at="2022-08-30T01:26:54Z" finished-at="2022-08-30T01:27:03Z">
+    <test name="Test" duration-ms="201346" started-at="2022-09-06T17:07:09Z" finished-at="2022-09-06T17:10:30Z">
+      <class name="com.truist.qa.openAccount.TestOpenAccountDataMap">
+        <test-method status="PASS" signature="initiatingReport()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="initiatingReport" is-config="true" duration-ms="344" started-at="2022-09-06T17:07:08Z" finished-at="2022-09-06T17:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiatingReport -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="beforeEachTest" is-config="true" duration-ms="20" started-at="2022-09-06T17:07:10Z" finished-at="2022-09-06T17:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="setUp" is-config="true" duration-ms="11663" started-at="2022-09-06T17:07:10Z" finished-at="2022-09-06T17:07:21Z">
           <params>
             <param index="0">
               <value>
@@ -39,112 +237,299 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="openCreditCardAccount()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccount@19bb07ed]" name="openCreditCardAccount" duration-ms="85371" started-at="2022-08-30T01:27:03Z" finished-at="2022-08-30T01:28:28Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' (tried for 35 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' (tried for 35 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-at commons.CommonWaits.waitUntilClickable(CommonWaits.java:21)
-at commons.Commons.click(Commons.java:53)
-at objects.OpenAccountPage.clickApplyNow(OpenAccountPage.java:58)
-at objects.OpenAccountPage.openAccountSteps(OpenAccountPage.java:75)
-at com.truist.qa.openAccount.TestOpenAccount.openCreditCardAccount(TestOpenAccount.java:12)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cta-663716574"]/a"}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-R4SI2TC', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [60ebfccced8781dfd6299f8ab550d2a9, findElement {using=xpath, value=//*[@id="cta-663716574"]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\kamru\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64973/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 60ebfccced8781dfd6299f8ab550d2a9
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy15.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="openCreditCardAccountMapDataProviderWithEnam(java.util.Map)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="openCreditCardAccountMapDataProviderWithEnam" duration-ms="89720" started-at="2022-09-06T17:07:21Z" data-provider="excelMap" finished-at="2022-09-06T17:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, FirstName=Selinaz, SubHeading=Compare Truist Visa® credit cards, Mobile=7579899899, url=https://creditcard.digitalcommerce.truist.com/product/welcome, SSN=755559897, Sub-title=I'm not a client, Execution=Y, Sub-title2=Let's get started., DOB=10/10/1999, Zipcode=17058, LastName=Gomez}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: (//a[normalize-space(text())='View card details'])[1]]<br>]]>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='cta-1776368162']/a]<br>]]>
             </line>
             <line>
-              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//a[normalize-space(text())='View card details'])[1]' :This element has been clicked<br>]]>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br>]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on WINDOWS (60ebfccced8781dfd6299f8ab550d2a9)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="cta-663716574"]/a]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br>]]>
+            </line>
+            <line>
+              <![CDATA[17058 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id="tru-core-input-1"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //h1]-------> :This element has text: Let's get started.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Selinaz been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-4']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Gomez been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-6']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-1-option-id-2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //li[@id='select-10-option-id-19']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[10/10/1999 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[755559897 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-22']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[7579899899 been passed into [[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //input[@id='tru-core-input-3']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- openCreditCardAccount -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccount@19bb07ed]" name="terminate" is-config="true" duration-ms="839" started-at="2022-08-30T01:28:28Z" finished-at="2022-08-30T01:28:29Z">
+        </test-method> <!-- openCreditCardAccountMapDataProviderWithEnam -->
+        <test-method status="PASS" signature="afterEachTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="afterEachTest" is-config="true" duration-ms="0" started-at="2022-09-06T17:08:51Z" finished-at="2022-09-06T17:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=openCreditCardAccountMapDataProviderWithEnam status=SUCCESS method=TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c] output=waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (0325eec597072a56845629942d04a1b6)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="terminate" is-config="true" duration-ms="1089" started-at="2022-09-06T17:08:51Z" finished-at="2022-09-06T17:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- com.truist.qa.openAccount.TestOpenAccount -->
+        <test-method status="PASS" signature="beforeEachTest(java.lang.reflect.Method)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="beforeEachTest" is-config="true" duration-ms="3" started-at="2022-09-06T17:08:52Z" finished-at="2022-09-06T17:08:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="setUp" is-config="true" duration-ms="7453" started-at="2022-09-06T17:08:52Z" finished-at="2022-09-06T17:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openCreditCardAccountMapDataProviderWithEnam(java.util.Map)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="openCreditCardAccountMapDataProviderWithEnam" duration-ms="89391" started-at="2022-09-06T17:09:00Z" data-provider="excelMap" finished-at="2022-09-06T17:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, FirstName=Taylor, SubHeading=Compare Truist Visa® credit cards, Mobile=7179899899, url=https://creditcard.digitalcommerce.truist.com/product/welcome, SSN=765559898, Sub-title=I'm not a client, Execution=Y, Sub-title2=Let's get started., DOB=10/08/1998, Zipcode=17054, LastName=Swifty}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@data-wa-linkurl='#credit-cards']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='cta-1776368162']/a]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='cta-1776368162']/a' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h2[contains(text(),'Compare Truist Visa® credit cards')]]-------> :This element has text: Compare Truist Visa® credit cards<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="cta-663716574"]/a]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="cta-663716574"]/a' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[current url is: https://creditcard.digitalcommerce.truist.com/product/welcome<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class='tru-core-button tru-core-button-primary']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='tru-core-button tru-core-button-secondary'])[2]' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-radio-button-label-2"]/tru-core-form-field-label]-------> :This element has text: I'm not a client<br>]]>
+            </line>
+            <line>
+              <![CDATA[17054 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id="tru-core-input-1"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@class="tru-core-button tru-core-button-primary"]] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //h1]-------> :This element has text: Let's get started.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Taylor been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-4']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Swifty been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-6']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-3']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-1-option-id-2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-1-option-id-2']' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //button[@id='tru-core-select-trigger-13']] :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //li[@id='select-10-option-id-19']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Proxy element for: DefaultElementLocator 'By.xpath: //li[@id='select-10-option-id-19']' :This element has been clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[10/08/1998 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-2']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[765559898 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-22']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[7179899899 been passed into [[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //input[@id='tru-core-input-3']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //*[@id='tru-core-checkbox-label-1']/tru-core-form-field-label] :This element has been clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openCreditCardAccountMapDataProviderWithEnam -->
+        <test-method status="PASS" signature="afterEachTest(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="afterEachTest" is-config="true" duration-ms="1" started-at="2022-09-06T17:10:29Z" finished-at="2022-09-06T17:10:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.truist.qa.openAccount.TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=openCreditCardAccountMapDataProviderWithEnam status=SUCCESS method=TestOpenAccountDataMap.openCreditCardAccountMapDataProviderWithEnam(java.util.Map)[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c] output=waiting for the element to be clickable---->[[ChromeDriver: chrome on WINDOWS (3a1e922c34c5aff14b0c11462d032805)] -> xpath: //a[@class='truist-globalnav-nav-link truist-globalnav-dropdown-toggle']]<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTest -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="terminate" is-config="true" duration-ms="1054" started-at="2022-09-06T17:10:29Z" finished-at="2022-09-06T17:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.truist.qa.openAccount.TestOpenAccountDataMap@636be97c]" name="endReport" is-config="true" duration-ms="693" started-at="2022-09-06T17:10:30Z" finished-at="2022-09-06T17:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.truist.qa.openAccount.TestOpenAccountDataMap -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
