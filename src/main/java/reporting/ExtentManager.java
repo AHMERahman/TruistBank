@@ -17,7 +17,7 @@ public class ExtentManager {
 			String extension = format.format(date);
 			extentReports = new ExtentReports();
 			ExtentSparkReporter spark = new ExtentSparkReporter("test-output/ExtentReports/ExtentReport_"+extension+".html");
-			spark.config().setReportName("Geico Automation Test Report");
+			spark.config().setReportName("TruistBnak Test Report");
 			extentReports.attachReporter(spark);
 			extentReports.setSystemInfo("Team", "QA");
 			extentReports.setSystemInfo("Environment", "QA");
